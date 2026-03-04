@@ -22,8 +22,8 @@ class LlmModel {
 
 const kAnthropicModels = [
   LlmModel(
-    id: 'claude-sonnet-4-5-20250929',
-    name: 'Sonnet 4.5',
+    id: 'claude-sonnet-4-6',
+    name: 'Sonnet 4.6',
     description: '日常问答',
     provider: LlmProvider.anthropic,
     contextWindow: 200000,
@@ -31,8 +31,8 @@ const kAnthropicModels = [
     reasoning: true,
   ),
   LlmModel(
-    id: 'gemini-3-pro-high',
-    name: 'Gemini 3 Pro',
+    id: 'gemini-3.1-pro-preview',
+    name: 'Gemini 3.1 Pro',
     description: '复杂问题',
     provider: LlmProvider.anthropic,
     contextWindow: 200000,

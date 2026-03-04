@@ -28,7 +28,10 @@ class SettingsScreen extends ConsumerWidget {
           ListTile(
             leading: const Icon(Icons.smart_toy),
             title: const Text('模型'),
-            subtitle: Text(model.name),
+            subtitle: Text(
+              '${model.name}\n复杂问题会自动使用推理模型',
+            ),
+            isThreeLine: true,
             trailing: const Icon(Icons.chevron_right),
             onTap: () => context.push('/settings/api'),
           ),
